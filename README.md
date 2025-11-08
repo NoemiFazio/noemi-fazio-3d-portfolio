@@ -1,4 +1,4 @@
-# 3D Portfolio
+# Noemi Fazio - 3D Portfolio
 
 A 3D portfolio project built with **React**, **Three.js**, and **GSAP**.
 
