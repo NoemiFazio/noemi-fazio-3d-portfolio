@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# Blocca commit se ci sono errori TypeScript
+pnpm tsc --noEmit
+
+# Blocca commit se ci sono errori ESLint e applica Prettier
 pnpm lint-staged
